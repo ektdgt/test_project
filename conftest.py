@@ -7,7 +7,7 @@ def pytest_addoption(parser):
     parser.addoption(
         "--language",
         action="store",
-        default="ru",  # Значение по умолчанию, если параметр не указан
+        default="en",  # Значение по умолчанию, если параметр не указан
         help="Language for the test (e.g. 'ru' or 'en')"
     )
 
